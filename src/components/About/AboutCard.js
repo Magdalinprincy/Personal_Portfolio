@@ -17,6 +17,8 @@ function AboutCard() {
             <br />
             I recently completed a <span className="purple"> MERN Stack Development</span> course to further enhance my technical expertise and broaden my skill set in web development. <br />
             <br />
+            Currently interning as an <span className="purple"> Associate Software Engineer, </span> actively contributing to development projects including lead generation systems and API implementations. <br />
+            <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>

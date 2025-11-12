@@ -8,6 +8,9 @@ import memory from "../../Assets/Projects/memory.png";
 import shoppe from "../../Assets/Projects/shoppe.png";
 import todo from "../../Assets/Projects/todo.png";
 import snake from "../../Assets/Projects/snake.png";
+import dispenser from "../../Assets/Projects/dispenser.png";
+import b2b from "../../Assets/Projects/b2b.png";
+import monitor from "../../Assets/Projects/monitor.png";
 
 function Projects() {
   return (
@@ -21,6 +24,39 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={b2b}
+              isBlog={false}
+              title="B2B Data Enrichment"
+              description="Built a scalable Node.js + Express backend integrated with the Apollo API for automated contact search and enrichment. Implemented asynchronous job scheduling with MongoDB and Redis, and integrated with a Python (Flask) microservice for data enrichment and transformation. Handled large-scale paginated data, OpenAI-based job title generation, and contact data persistence efficiently."
+              // ghLink="https://github.com/Magdalinprincy/next-tailwind-amazona"
+              // demoLink="https://next-tailwind-amazona-git-master-magdalinprincy.vercel.app/"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dispenser}
+              isBlog={false}
+              title="Monitoring Dashboard"
+              description="Built a real-time system to track dispenser performance and maintenance in a paper manufacturing facility. Enabled early issue detection with visual dashboards and automated alerts, improving maintenance response time by 40%."
+              // ghLink="https://github.com/Magdalinprincy/next-tailwind-amazona"
+              // demoLink="https://next-tailwind-amazona-git-master-magdalinprincy.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={monitor}
+              isBlog={false}
+              title="Compliance Monitoring System"
+              description="Assisted a US pharmaceutical company in maintaining compliance and monitoring employee training through automated processes using SAS, ensuring data quality to avoid regulatory penalties."
+              // ghLink="https://github.com/Magdalinprincy/next-tailwind-amazona"
+              // demoLink="https://next-tailwind-amazona-git-master-magdalinprincy.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={shoppe}
