@@ -16,7 +16,7 @@ function Github() {
         fontSize={16}
       />
       <p style={{ color: "gray", fontSize: "14px", marginTop: "10px", textAlign: "center" }}>
-        *Calendar displays only public contributions*
+        Calendar displays only public contributions
       </p>
     </Row>
   );
