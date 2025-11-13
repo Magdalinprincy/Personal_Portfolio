@@ -15,9 +15,9 @@ function Github() {
         color="#c084f5"
         fontSize={16}
       />
-      <p style={{ color: "gray", fontSize: "14px", marginTop: "10px", textAlign: "center" }}>
+      {/* <p style={{ color: "gray", fontSize: "14px", marginTop: "10px", textAlign: "center" }}>
         Calendar displays only public contributions
-      </p>
+      </p> */}
     </Row>
   );
 }
