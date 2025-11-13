@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiNodejs, DiMongodb } from "react-icons/di";
-import { SiExpress, SiMicrosoftsqlserver, SiPowerbi, SiOracle, SiAutocad } from "react-icons/si";
-import { FaSass } from "react-icons/fa";
+import { SiExpress, SiMicrosoftsqlserver, SiPowerbi, SiOracle } from "react-icons/si";
+// import { FaSass } from "react-icons/fa";
 
 function Techstack() {
   return (
